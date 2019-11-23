@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/feed_bg"
+    tools:context=".search.SearchFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<include-->
+            <!--android:id="@+id/search_appbar"-->
+            <!--layout="@layout/all_app_bar_layout"-->
+            <!--/>-->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/search_appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Enter your search term..."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/add_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+
+                    android:src="@drawable/ic_search_black" />
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/recommendation_track_top_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/search_appbar"
+                android:layout_marginLeft="5dp"
+               >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/track_color"
+                    android:backgroundTint="@color/track_color"
+                    android:gravity="center">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/view_hide_show_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Recommended based on your Profile" />
+
+                    <Button
+                        android:id="@+id/button_hide_show_search"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="104dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@+id/view_hide_show_search"
+                        android:background="@drawable/ic_menu_up" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_tracks_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/recommendation_track_top_bar"
+                android:orientation="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_posts_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/recycler_view_tracks_search"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>

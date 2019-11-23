@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newsfeed_tab"
+        android:icon="@drawable/ic_newsfeed"
+        android:title="Newsfeed" />
+
+    <item
+        android:id="@+id/tracks_tab"
+        android:icon="@drawable/track_logo"
+        android:title="Tracks" />
+
+    <item
+        android:id="@+id/search_tab"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/people_tab"
+        android:icon="@drawable/ic_people"
+        android:title="People" />
+
+    <item
+        android:id="@+id/menu_tab"
+        android:icon="@drawable/ic_menu"
+        android:title="Menu" />
+</menu>

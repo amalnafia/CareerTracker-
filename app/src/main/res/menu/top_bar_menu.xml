@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"
+        app:showAsAction="always" />
+
+    <item
+        android:title="Message"
+        android:id="@+id/message"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="always"/>
+    <item
+        android:title="Notification"
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="ifRoom"/>
+
+</menu>

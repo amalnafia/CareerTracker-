@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "109729164979",
+    "firebase_url": "https://careertrackappgp.firebaseio.com",
+    "project_id": "careertrackappgp",
+    "storage_bucket": "careertrackappgp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109729164979:android:a4aa49f0b661f4a3",
+        "android_client_info": {
+          "package_name": "com.example.ibrahimshaltout.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109729164979-99idbb0rdbqdfjucvm46amv50s1s4pu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuw0K8S6jppKl0FJhC9oobb9Jt6zxZYOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

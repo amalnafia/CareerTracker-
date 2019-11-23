@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Career Tracker</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_signUp">Signup</string>
+    <string name="test">With the mobile applicationthe users will be able to search for organizations jobs courses etc.
+        The result will be based on the criteria the user inputs. There are several search criteria and it will be
+        possible for the administrator of the system to manage the options for those criteria that have that
+The result of the search will be viewed in a list view depending on what criteria included in the search  The list
+        view will have one list item for each result matching the search criteria and show a small part of information
+        so the user can identify his target
+</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Enter Your Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="verify_your_email">Verify Your Email</string>
+    <string name="what_s_your_current_education_level">What\'s your current educational level?</string>
+
+
+    <!--top_bar_menu-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer top_bar_menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when bottom_navigation_menu top_bar_menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="bio_profile"><![CDATA[ Hello Iam New here ]]></string>
+    <string name="bio_profile2"><![CDATA[I\'m a student at the faculty of computer science .. I\'m looking forward to gaining more experience./]]></string>
+    <string name="bio_profile3"><![CDATA[I\'m looking forward to gaining more experience.about computer software testing , system analysis & project management .]]></string>
+    <string name="bio_profile4"><![CDATA[I\'m looking forward to gaining more experience.]]></string>
+    <string name="bio_profile5"><![CDATA[Android Developer Responsibilities
+
+Include:
+
+    Designing and developing advanced applications for the Android platform
+    Unit-testing code for robustness, including edge cases, usability, and general reliability
+    Bug fixing and improving application performance
+
+Hiring an Android developer? Sign up for Workable’s 15-day free trial to post this job and hire better, faster.
+Job brief
+
+We are looking for an Android Developer who possesses a passion for pushing mobile technologies to the limits. This Android app developer will work with our team of talented engineers to design and build the next generation of our mobile applications. Android programming works closely with other app development and technical teams.
+Responsibilities
+    Continuously discover, evaluate, and implement new technologies to maximize development efficiencyI\'m looking forward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experiencforward to gaining more experience.]]></string>
+
+
+    <string name="give_correct_information">Please your give correct information. Because, your email &amp; phone number needs to be verification.</string>
+
+    <!-- My Common Strings -->
+    <string name="student_name">Abdullah Al-Hasnat</string>
+    <string name="copyright">uMe © 2018</string>
+    <string name="profile_settings">My Profile</string>
+    <string name="thehasnatbd">TheHasnatBD</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log Out</string>
+    <string name="profile">Profile</string>
+    <string name="friends">Friends</string>
+    <string name="about_app">About App</string>
+    <string name="all_peoples">Peoples</string>
+    <string name="all_friends">Friends</string>
+
+
+    <!-- Slider Screen Strings -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="title_slide1">Friendship</string>
+    <string name="desc_slide1">you can find a large number of people to build up friendship</string>
+    <string name="title_slide2">No Cost</string>
+    <string name="desc_slide2">uMe is completely FREE of cost, no subscription fees.</string>
+    <string name="title_slide3">Chatting</string>
+    <string name="desc_slide3">fully one to one personal chatting system</string>
+    <string name="title_slide4">Secure</string>
+    <string name="desc_slide4">uMe keeps your messages secure</string>
+
+
+    <!-- About App Strings -->
+    <string name="varsity_name">BANGLADESH UNIVERSITY</string>
+    <string name="instructor1_name">Md. Sadiq Iqbal</string>
+    <string name="instructor_name">Omor Faruk</string>
+    <string name="about_text">This application is built for learning purpose.\nProject Source Code Link-</string>
+    <string name="project_git_link"><u>https://github.com/TheHasnatBD/uMe</u></string>
+    <string name="about_app_detail">x</string>
+    <string name="student_id_details">B.Sc in Computer Science &amp; Engineering\nID: 201521 042 019</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Remove or change this placeholder text -->
+    <string name="on_internet_msg">No internet connection! Please check internet.</string>
+    <string name="menu_search">Search</string>
+    <string name="register_success_popup">Registered successfully.\nVerification email has been sent.\nPlease verify email.</string>
+    <string name="recheck_gender">To save your changes, please check/recheck your GENDER.</string>
+    <string name="end_enter_data"><![CDATA[verify Your Account\n Enter your Email & Password]]></string>
+
+    <string-array name="spinerViewPeople">
+        <item>Default</item>
+        <item>Name</item>
+        <item>Date</item>
+    </string-array>
+
+</resources>

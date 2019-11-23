@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/track_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ToDoList.ToDoListActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/todo_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:layout_gravity="end|bottom"
+        app:srcCompat="@drawable/ic_add"
+        tools:ignore="MissingConstraints" />
+
+</FrameLayout>
